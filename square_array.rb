@@ -1,7 +1,8 @@
 def square_array(array)
   newArr = []
+
   array.each do |number|
-    number = "FROG"
+    newArr << number **= number
   end
 
   array
